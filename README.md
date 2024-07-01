@@ -1,1 +1,2 @@
 # Login-page-for-a-website
+This repository contains a simple and responsive login page created using HTML and CSS. The page includes email and password input fields, a "Remember Me" checkbox, and links for "Forgot Password" and "Register." Font Awesome icons are used to enhance the design, providing a modern and user-friendly interface. The layout is fully responsive, ensuring it looks good on all devices. To view the login page, open the index.html file in a web browse
