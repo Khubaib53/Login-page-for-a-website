@@ -1,0 +1,105 @@
+*{
+    color: white;
+}
+body{
+    background-image: url('bg.jpg');
+    /*background-size: cover; /* This makes the image cover the whole background */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    /*background-attachment: fixed; /* This makes the background image fixed in place */
+    /*background-position: center; /* This centers the image */
+    /*margin: 0; /* Remove default margin */
+   /* padding: 0; /* Remove default padding */
+   /* height: 100vh; Make sure the body takes up the full height of the viewport */
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+section{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+.loginbox{
+    position: relative;
+    border: 2px solid white;
+    width: 320px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.login-heading{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mailbox{
+    width: 250px;
+    margin: 30px 0;
+    border-bottom: 2px solid white;
+    margin-left: 35px;
+}
+.mailbox input{
+    background: none;
+    border: none;
+}
+.fa-regular{
+    margin-left: 54px;
+}
+.password{
+    width: 250px;
+    margin: 30px 0;
+    border-bottom: 2px solid white;
+    margin-left: 35px;
+}
+.passwordbox{
+    background: none;
+    border: none;
+}
+.fa-solid{
+    margin-left: 54px;
+}
+.lower-box{
+    display: flex;
+    font-size: smaller;
+    align-items: space-evenly;
+}
+.forgot{
+    display: flex;
+    width: 100%;
+    margin-left: 30px;
+}
+#remember{
+    margin-left: 33px;
+    margin-bottom: 4px;
+}
+.new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    width: 75%;
+    height: 29px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.footer{
+    margin-left: 75px;
+    font-size: small;
+}
+#rig{
+    font-weight: bold;
+    color: rgb(43, 77, 105);
+}
+.email:hover{
+    border: none;
+}
